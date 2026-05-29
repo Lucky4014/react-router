@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4ff;
+  color: #1e293b;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #1e40af;
+  color: white;
+}
+
+.nav-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 6px 16px;
+  border-radius: 999px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: white;
+  background: rgba(255,255,255,0.15);
+}
+
+.nav-link.active {
+  color: white;
+  background: rgba(255,255,255,0.25);
+  font-weight: 600;
+}
+
+/* MAIN */
+.main-content {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* PAGE CARD */
+.page-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 24px rgba(30,64,175,0.08);
+  text-align: center;
+}
+
+.page-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-card h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+}
+
+.page-card p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 10px 28px;
+  background: #1e40af;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-home:hover {
+  background: #1e3a8a;
+}
+
+.tag {
+  display: inline-block;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 1.25rem;
+}
